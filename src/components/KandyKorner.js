@@ -1,12 +1,16 @@
 import React from "react"
+import { LocationList } from "./location/LocationList"
+import { LocationProvider } from "./locations/LocationProvider"
+import "./KandyKorner.css"
 
 export const KandyKorner = () => (
     <>
         <h2>Kandy Korner</h2>
         <small>Kandy when you need a treat</small>
-        <address>
-            <div>Visit Us at the Nashville North Location</div>
-            <div>200 Kandykane Ln</div>
-        </address>
+
+        <h2>Locations</h2>
+        <LocationProvider>
+            <LocationList />
+        </LocationProvider>
     </>
 )
