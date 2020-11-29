@@ -1,5 +1,5 @@
 import React from "react"
-import { LocationList } from "./location/LocationList"
+import { LocationList } from "./locations/LocationList"
 import { LocationProvider } from "./locations/LocationProvider"
 import "./KandyKorner.css"
 
