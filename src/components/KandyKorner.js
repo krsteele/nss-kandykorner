@@ -4,9 +4,9 @@ import { ApplicationViews } from "./ApplicationViews"
 import { NavBar } from "./nav/NavBar"
 import "./KandyKorner.css"
 
-export const KandyKorner = () => {
-   return <>
+export const KandyKorner = () => (
+    <>
         <NavBar />
         <ApplicationViews />
     </>
-}
+)
